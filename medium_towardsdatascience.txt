@@ -1,0 +1,67 @@
+
+https://towardsdatascience.com/pyspark-and-sparksql-basics-6cb4bf967e53
+https://towardsdatascience.com/pyspark-and-sparksql-basics-6cb4bf967e53
+https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#
+
+https://spark.apache.org/docs/latest/api/python/reference/api/pyspark.sql.DataFrame.unionByName.html
+https://towardsdatascience.com/pyspark-and-sparksql-basics-6cb4bf967e53
+
+https://www.shanelynn.ie/merge-join-dataframes-python-pandas-index-1/
+
+https://medium.com/@ayplam/developing-pyspark-udfs-d179db0ccc87
+
+https://medium.com/analytics-vidhya/udfs-in-pyspark-270bc7890786
+https://changhsinlee.com/pyspark-udf/
+
+https://medium.com/analytics-vidhya/user-defined-functions-udf-in-pyspark-928ab1202d1c
+
+https://blog.cambridgespark.com/unit-testing-with-pyspark-fb31671b1ad8
+
+https://towardsdatascience.com/how-to-change-the-column-names-of-pyspark-dataframes-46da4aafdf9a
+
+
+https://medium.com/@nutanbhogendrasharma/how-to-parallelize-and-distribute-collection-in-pyspark-5f58c86d7582
+
+
+https://www.datasciencebytes.com/bytes/2015/03/07/a-d3js-plot-powered-by-a-sql-database/
+https://delta.io/
+
+
+
+
+# Python program to
+# demonstrate init with
+# inheritance
+  
+class A(object):
+    def __init__(self, something):
+        print("A init called")
+        self.something = something
+          
+  
+class B(A):
+    def __init__(self, something):
+        # Calling init of parent class
+        A.__init__(self, something)
+        print("B init called")
+        self.something = something
+          
+obj = B("Something")
+Output:
+
+A init called
+B init called
+
+
+
+def kinetic_energy(m:'in KG', v:'in M/S')->'Joules': 
+    return 1/2*m*v**2
+ 
+>>> kinetic_energy.__annotations__
+{'return': 'Joules', 'v': 'in M/S', 'm': 'in KG'}
+
+
+
+
+
+
